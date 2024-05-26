@@ -27,6 +27,7 @@ body {
 .cards {
     display: flex;
     gap: 50px;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -46,10 +47,7 @@ body {
     font-size: 20px;
 }
 
-@media (width <= 450px){
-    .cards {
-        flex-direction: column;
-    }
+@media (width <= 450px) {
     .page {
         margin: 10px;
     }
