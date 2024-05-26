@@ -46,7 +46,7 @@ body {
     font-size: 20px;
 }
 
-@media (width <= 400px){
+@media (width <= 450px){
     .cards {
         flex-direction: column;
     }
